@@ -12,7 +12,7 @@
 import numpy as np
 
 
-class HG:
+class HG(object):
 	
 	def __init__(self,asym):
 		self.g = asym
